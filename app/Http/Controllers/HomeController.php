@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use app\Models\chats;
+
 
 class HomeController extends Controller
 {
@@ -23,6 +25,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('admin.dashbordindex');
     }
+
+    public function chat(Request $req)
+    {
+        return $req->input();
+
+
+    }
+
 }

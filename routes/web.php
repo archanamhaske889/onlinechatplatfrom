@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/', function () {
+Route::get('/', function () {
     return view('welcome');
-});*/
+});
 
 /*Auth::routes();
 
@@ -23,6 +24,25 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\TemplateController::class, 'index'])->name('asset.home');
-Auth::routes();
+/*admin*/
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('admin.home');
+
+Route::get('/Visitor', function(){
+	return view('admin.visitor');
+});
+
+Route::get('/vistorCount', function(){
+	return view('admin.vistorCount');
+});
+
+Route::view('chat','admin.Group_chat');
+
+Route::post('chat', [App\Http\Controllers\HomeController::class, 'chat']);
+
+Route::get('/chat', function(){
+	return view('admin.Group_chat');
+});
+
+
+

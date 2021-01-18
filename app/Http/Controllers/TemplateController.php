@@ -10,4 +10,7 @@ class TemplateController extends Controller
     public function index(){
     	return view('asset.home');
     }
+     public function adminmaster(){
+    	return view('admin.home');
+    }
 }

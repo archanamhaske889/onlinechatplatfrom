@@ -1718,7 +1718,7 @@ header .form-inline {
 .btn,
 .button {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 50;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;

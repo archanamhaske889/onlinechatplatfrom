@@ -17,11 +17,11 @@
     <link rel="shortcut icon" href="favicon.ico">
 
 
-    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="vendorss/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendorss/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendorss/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendorss/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendorss/selectFX/css/cs-skin-elastic.css">
 
     <link rel="stylesheet" href="css/style1.css">
 
